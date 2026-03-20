@@ -2,13 +2,13 @@
 
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+  
   background-image: var(--bg-image);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-color: var(--bg-color);
-  overflow: auto;
   min-width: 375px;
 }
 
@@ -20,6 +20,8 @@
   grid-template-columns: 1fr;
   grid-template-rows: 1fr min-content 1fr;
   padding: var(--padding-small);
+  justify-self: center;
+  align-content: center;
 }
 
 .decorated-zone::before {
@@ -124,3 +126,60 @@
   height: fit-content;
   background-color: var(--accent-color);
 }
+
+.main {
+  display: grid;
+  gap: 50px;
+  margin-block-start: 40px;
+  padding: 0 10px;
+}
+
+.content {
+  display: grid;
+  gap: 20px;
+}
+
+.card__link {
+  text-decoration: none;
+  text-shadow: 2px 1px  var(--link-shadow-color);
+}
+.card__link:hover {
+  border-bottom: 1px solid var(--text-color);
+}
+
+.card__link:focus {
+  outline: none;
+}
+
+.card__link:focus-visible {
+  outline: 1px solid var(--text-color);
+}
+.content_type-galler{
+  display: grid;
+  gap: 10px;
+}
+
+.gallery__image {
+  width: 100%;
+  background-size: cover;
+}
+
+.footer {
+  display: grid;
+  position: relative;
+  height: 100vh;
+  min-height: 668px;
+  margin-block-start: 40px;
+  justify-self: center;
+  align-content: center;
+  padding: var(--padding-small);
+}
+
+.footer__title {
+  color: var(--title-color);
+  line-height: 83%;
+  font-size: var(--title-mobile-font-size);
+  text-shadow: 2px 2px var(--footer-title-color);
+  font-weight:var(--font-bold);
+}
+
