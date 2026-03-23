@@ -52,7 +52,7 @@
 .rec {
   position: absolute;
   z-index: 1;
-  top: 12px;
+  top: 10px;
   right: 19px;
   padding-right: var(--padding-s);
   color: var(--accent-color);
@@ -206,8 +206,13 @@
   .header {
     min-block-size: 1024px;
     padding: var(--padding-m) var(--padding-m) var(--padding-m) 0;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 364px;
   }
+  .rec {
+    top:20px;
+    right:29px;
+  }
+
   .header__theme-menu{
     grid-row: 1;
     grid-column: 2;
@@ -227,6 +232,16 @@
     align-self: center;
     grid-column: 2;
     grid-row: 3;
+  }
+
+  .decorated-zone::before {
+    top:20px;
+    right:20px;
+  }
+
+  .decorated-zone::after {
+    bottom:20px;
+    left:20px;
   }
 
 }
