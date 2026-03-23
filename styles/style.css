@@ -33,7 +33,6 @@
   border-style: solid;
   border-width: 1px 1px 0 0;
   border-color: var(--accent-color);
-
 }
 
 .decorated-zone::after {
@@ -48,7 +47,6 @@
   border-color: var(--accent-color);
 }
 
-
 .rec {
   position: absolute;
   z-index: 1;
@@ -56,7 +54,6 @@
   right: 19px;
   padding-right: var(--padding-s);
   color: var(--accent-color);
-  
 }
 
 .rec::after {
@@ -83,16 +80,10 @@
   gap: var(--gap-xs);
 }
 
-.header__theme-menu-item {
+.header__theme-menu-button {
+  display: grid;
   inline-size: 70px;
   block-size: 26px;
-  align-items: center;
-  justify-items: center;
-}
-
-.header__theme-menu-button {
-  inline-size: 100%;
-  block-size: 100%;
   color: var(--accent-color);
   background-color: inherit;
   line-height: 18px;
@@ -131,17 +122,37 @@
   gap: var(--gap-m);
   margin-block-start: var(--margin-s);
   padding-inline-start: var(--padding-xs);
-  padding-inline-end: var(--padding-xs); 
+  padding-inline-end: var(--padding-xs);
 }
 
 .content {
   display: grid;
-  gap:var(--gap-s);
+  gap: var(--gap-s);
+}
+
+.content__title {
+  color: var(--accent-color);
+  font-weight: var(--font-bold);
+  font-size: var(--text-font-size);
+  line-height: 23.4px;
+  letter-spacing: 0%;
+}
+
+.card__title {
+  color: var(--subtitle-color);
+  font-weight: var(--font-bold);
+  font-size: var(--text-font-size);
+  line-height: 23.4px;
+  letter-spacing: 0%;
+}
+
+.card_title-special {
+  font-weight: var(--font-regular);
 }
 
 .card__link {
   text-decoration: none;
-  text-shadow: 2px 1px  var(--link-shadow-color);
+  text-shadow: 2px 1px var(--link-shadow-color);
 }
 .card__link:hover {
   border-bottom: 1px solid var(--text-color);
@@ -154,9 +165,13 @@
 .card__link:focus-visible {
   outline: 1px solid var(--text-color);
 }
-.content_type-galler{
+.content_type-galler {
   display: grid;
   gap: var(--gap-xs);
+}
+
+.gallery__title{
+  color: var(--subtitle-color);
 }
 
 .gallery__image {
@@ -180,6 +195,5 @@
   line-height: 83%;
   font-size: var(--title-mobile-font-size);
   text-shadow: 2px 2px var(--footer-title-color);
-  font-weight:var(--font-bold);
+  font-weight: var(--font-bold);
 }
-
