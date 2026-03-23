@@ -9,7 +9,17 @@
   --font-bold: 700;
   --font-regular: 400;
   --text-color: rgba(241, 178, 206, 1);
-  --padding-small: 10px;
+  --padding-xs: 10px;
+  --padding-s: 15px;
+  --padding-m: ;
+  --padding-l: ;
+  --margin-xs: ;
+  --margin-s: 40px;
+  --margin-m: 55px;
+  --margin-l: 65px;
+  --gap-xs:10px;
+  --gap-s: 20px;
+  --gap-m:50px;
   --accent-color: rgba(255, 0, 112, 1);
   --header-title-color: rgba(219, 0, 255, 1);
   --footer-title-color: rgba(219, 0, 255, 1);
