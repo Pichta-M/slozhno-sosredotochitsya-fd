@@ -170,7 +170,7 @@
   height: 100vh;
   min-block-size: 668px;
   margin-block-start: var(--margin-s);
-  justify-self: center;
+  justify-content: center;
   align-content: center;
   padding: var(--padding-xs);
 }
