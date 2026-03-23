@@ -2,6 +2,7 @@
 
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+  display: grid;
   background-image: var(--bg-image);
   background-position: center;
   background-size: cover;
@@ -9,6 +10,7 @@
   background-attachment: fixed;
   background-color: var(--bg-color);
   min-inline-size: 375px;
+  gap: var(--gap-m);
 }
 
 .header {
@@ -119,8 +121,7 @@
 
 .main {
   display: grid;
-  gap: var(--gap-m);
-  margin-block-start: var(--margin-s);
+  gap: var(--gap-l);
   padding-inline-start: var(--padding-xs);
   padding-inline-end: var(--padding-xs);
 }
@@ -138,6 +139,10 @@
   letter-spacing: 0%;
 }
 
+.card {
+  display: grid;
+  gap: var(--gap-xs);
+}
 .card__title {
   color: var(--subtitle-color);
   font-weight: var(--font-bold);
@@ -165,7 +170,7 @@
 .card__link:focus-visible {
   outline: 1px solid var(--text-color);
 }
-.content_type-galler {
+.content_type-gallery {
   display: grid;
   gap: var(--gap-xs);
 }
@@ -184,7 +189,6 @@
   position: relative;
   height: 100vh;
   min-block-size: 668px;
-  margin-block-start: var(--margin-s);
   justify-content: center;
   align-content: center;
   padding: var(--padding-xs);
