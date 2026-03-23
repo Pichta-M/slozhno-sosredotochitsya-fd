@@ -19,7 +19,7 @@
   grid-template-columns: 1fr;
   grid-template-rows: 1fr min-content 1fr;
   padding: var(--padding-xs);
-  justify-self: center;
+  justify-content: center;
   align-content: center;
 }
 
@@ -191,9 +191,9 @@
 }
 
 .footer__title {
-  color: var(--title-color);
+  color: var(--footer-title-color);
   line-height: 83%;
   font-size: var(--title-mobile-font-size);
-  text-shadow: 2px 2px var(--footer-title-color);
+  text-shadow: 2px 2px var(--accent-color);
   font-weight: var(--font-bold);
 }
