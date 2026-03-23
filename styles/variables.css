@@ -27,6 +27,4 @@
   --title-tablet-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   --text-font-size: 18px;
   --link-shadow-color: rgba(255, 0, 112, 1);
-  
-
 }
