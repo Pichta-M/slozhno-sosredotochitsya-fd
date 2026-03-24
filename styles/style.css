@@ -250,7 +250,7 @@
 
   .main {
     gap: var(--gap-xxl);
-    padding: var(--padding-m);
+    padding: 0 var(--padding-m);
   }
 
   .content_type-why {
