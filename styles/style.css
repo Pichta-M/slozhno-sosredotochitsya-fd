@@ -244,7 +244,58 @@
     left:20px;
   }
 
+  .main {
+    padding: var(--padding-m);
+  }
+
+  .content_type-why {
+    grid-template-columns: 236px 1fr;
+  }
+
+  .card_card_type-multitasking {
+    grid-column: 2;
+  }
+
+  .card_type-dopamine {
+    grid-column: 2;
+  }
+
+  .content_type-distractors {
+    grid-template-columns: 236px 1fr;
+    grid-template-rows: repeat(min-content(4, 1fr));
+
+  }
+
+  .content_title-distractors{
+    grid-column: 1 / 1;
+    grid-row: 1;
+  }
+
+  .card_type-concentrating{
+    grid-column: 1 / 3;
+    grid-row: 2;
+  }
+  .card_type-meal{
+    grid-column: 1 / 3;
+    grid-row: 3;
+  }
+  .card_type-gajets{
+    grid-column: 1 / 3;
+    grid-row: 4;
+
+  }
 }
+
+
+
+
+
+
+
+
+
+
+
 
 @media (width >=1024px) {
 
