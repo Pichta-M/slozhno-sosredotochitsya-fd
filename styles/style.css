@@ -203,6 +203,10 @@
 }
 
 @media (width >=768px) {
+ .page {
+  gap: var(--gap-xl);
+ }
+ 
   .header {
     min-block-size: 1024px;
     padding: var(--padding-m) var(--padding-m) var(--padding-m) 0;
@@ -245,6 +249,7 @@
   }
 
   .main {
+    gap: var(--gap-xxl);
     padding: var(--padding-m);
   }
 
@@ -262,7 +267,7 @@
 
   .content_type-distractors {
     grid-template-columns: 236px 1fr;
-    grid-template-rows: repeat(min-content(4, 1fr));
+    grid-template-rows: min-content min-content min-content min-content;
 
   }
 
