@@ -345,6 +345,7 @@
 
   .header__theme-menu-list {
     display: flex;
+    margin-inline-start: var(--margin-xs);
   }
 
   .content_type-why {
