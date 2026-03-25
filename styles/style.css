@@ -324,6 +324,11 @@
   .footer {
     padding: var(--padding-m);
   }
+
+  .footer__title {
+    font-size: var(--title-tablet-font-size);
+  }
+
 }
 
 @media (width >=1024px) {
