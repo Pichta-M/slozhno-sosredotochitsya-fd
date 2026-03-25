@@ -90,6 +90,7 @@
   line-height: 18px;
   text-transform: lowercase;
   border: none;
+  cursor: pointer;
 }
 
 .header__theme-menu-button:hover {
