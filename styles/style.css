@@ -127,6 +127,10 @@
   background-color: var(--decor-color);
 }
 
+.paragraph_block-span {
+  display: block;
+}
+
 .main {
   display: grid;
   gap: var(--gap-l);
