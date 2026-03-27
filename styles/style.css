@@ -81,6 +81,7 @@
 
 .header__theme-menu-button {
   display: grid;
+  align-content: center;
   inline-size: 70px;
   block-size: 26px;
   color: var(--accent-color);
