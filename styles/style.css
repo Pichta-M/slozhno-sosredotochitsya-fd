@@ -165,7 +165,7 @@
 
 .card__link {
   text-decoration: none;
-  text-shadow: 2px 1px var(--link-shadow-color);
+  text-shadow: 2px 2px 0 var(--link-shadow-color);
 }
 .card__link:hover {
   border-inline-end: 1px solid var(--text-color);
