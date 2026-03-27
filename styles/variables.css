@@ -1,7 +1,7 @@
 :root {
   --bg-image: url(../images/cover-image-dark.png);
   --bg-color: rgba(0, 0, 40, 1);
-  --font-family: "IBM Plex mono", sans-serif;
+  --font-family: "IBM Plex mono", monospace;
   --font-bold: 700;
   --font-regular: 400;
   --text-color: rgba(241, 178, 206, 1);
