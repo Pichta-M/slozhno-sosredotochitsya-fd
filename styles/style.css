@@ -120,12 +120,14 @@
 .header__paragraph {
   align-self: center;
   color: var(--subtitle-color);
-  font-weight: var(--font-bold);
-  line-height: 23.4px;
 }
 
 .title-decor {
+  font-family: var(--font-family);
+  font-weight: var(--font-bold);
+  font-size: var(--text-font-size);
   height: fit-content;
+  line-height: 23.4px;
   background-color: var(--decor-color);
 }
 
@@ -155,9 +157,6 @@
 }
 .card__title {
   color: var(--subtitle-color);
-  font-weight: var(--font-bold);
-  font-size: var(--text-font-size);
-  line-height: 23.4px;
 }
 
 .card_title-special {
