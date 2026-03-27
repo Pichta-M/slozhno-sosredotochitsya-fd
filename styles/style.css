@@ -267,7 +267,7 @@
     grid-template-columns: 236px 1fr;
   }
 
-  .card_type-why {
+  .content_type-why .card {
     grid-column: 2;
   }
 
@@ -276,7 +276,7 @@
     flex-wrap: wrap;
   }
 
-  .content_title-distractors {
+  .content_type-distractors .content__title {
     grid-column: span 1;
   }
 
@@ -288,12 +288,12 @@
     grid-template-columns: 236px 1fr;
   }
 
-  .title_type-advice {
+  .content_type-advice .content__title {
     grid-column: 1 / 2;
     grid-row: 1 / 3;
   }
 
-  .card_type-advice {
+  .content_type-advice .card {
     grid-column: 2 / 3;
   }
 
